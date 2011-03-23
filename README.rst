@@ -56,13 +56,13 @@ views. Actually, one of them doesn't strictly need to be subclassed.
             return HttpResponse('It worked!')
     return_ = Return.as_view()
 
-`handle_success()` gives you a `tweepy.OAuth` object containing your user's
+``handle_success()`` gives you a ``tweepy.OAuth`` object containing your user's
 OAuth credentials. At this point you can:
 
 * Fetch information using the tweepy API
 * Create an auth.User instance and link it to a custom twitter profile
 
-`handle_success()` just needs to return an `HttpResponse`.
+``handle_success()`` just needs to return an ``HttpResponse``.
 
 After that, just hook your custom views in your app urlconf::
 
