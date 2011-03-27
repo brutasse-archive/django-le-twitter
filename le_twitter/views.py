@@ -55,10 +55,10 @@ class Return(generic.View):
         """
         Twitter authentication successful, do some stuff with his key.
         """
-        raise NotImplemented
+        raise NotImplementedError
 
     def handle_error(self, error_msg, exception=None):
         """
         Meh. Something broke.
         """
-        raise NotImplemented
+        raise NotImplementedError
