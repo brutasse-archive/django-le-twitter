@@ -5,7 +5,7 @@ from setuptools import find_packages
 
 setup(
     name='django-le-twitter',
-    version='0.1',
+    version='0.2',
     author=u'Bruno Renie',
     author_email='bruno@renie.fr',
     packages=find_packages(),
