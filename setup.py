@@ -16,7 +16,7 @@ setup(
     long_description=open('README.rst').read(),
     install_requires=[
         'Django>=1.3',
-        #'tweepy>=1.5',
+        'tweepy>=1.5',
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',
